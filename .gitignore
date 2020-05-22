@@ -1,3 +1,12 @@
 
-#schematic backup fikes
+#KiCad backup fikes
 *.sch-bak
+*.kicad_pcb-bak
+
+#net files because those are easy to start
+.net
+
+#manufacturing files
+*.gbr
+*.drl
+*.pos
