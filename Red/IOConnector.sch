@@ -38,9 +38,11 @@ F 4 "609-3250-ND" H 5600 5850 50  0001 C CNN "digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Power_Protection:USBLC6-2SC6 U501
+L red_symbols:USBLC6-2SC6-Power_Protection U501
 U 1 1 5EC49DC1
 P 5550 2750
+AR Path="/5EC49DC1" Ref="U501"  Part="1" 
+AR Path="/5EC43DD6/5EC49DC1" Ref="U501"  Part="1" 
 F 0 "U501" V 5504 3294 50  0000 L CNN
 F 1 "USBLC6-2SC6" V 5595 3294 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4800 3150 50  0001 C CNN

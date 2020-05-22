@@ -96,7 +96,7 @@ U 1 1 5EC555A9
 P 5750 4350
 F 0 "J704" H 5830 4342 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 5830 4251 50  0000 L CNN
-F 2 "my_library:2_pin_screw_terminal" H 5750 4350 50  0001 C CNN
+F 2 "Red:2_pin_screw_terminal" H 5750 4350 50  0001 C CNN
 F 3 "~" H 5750 4350 50  0001 C CNN
 F 4 "A98333-ND" H 5750 4350 50  0001 C CNN "digikey"
 	1    5750 4350
