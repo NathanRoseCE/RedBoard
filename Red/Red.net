@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/nathan/Desktop/Other/PersonalProjects/RedBoard/Red/Red.sch)
-    (date "Fri 22 May 2020 01:22:18 PM EDT")
+    (date "Sat 23 May 2020 10:28:25 AM EDT")
     (tool "Eeschema 5.1.6-c6e7f7d~86~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -248,7 +248,7 @@
       (tstamp 5EC555A9))
     (comp (ref J703)
       (value Screw_Terminal_01x02)
-      (footprint my_library:2_pin_screw_terminal)
+      (footprint Red:2_pin_screw_terminal)
       (datasheet ~)
       (fields
         (field (name digikey) A98333-ND))
@@ -257,7 +257,7 @@
       (tstamp 5EC5733C))
     (comp (ref R708)
       (value 4.7)
-      (footprint my_library:dpak_back_isolated)
+      (footprint Red:dpak_back_isolated)
       (datasheet ~)
       (fields
         (field (name digikey) PWR263S-20-4R70J))
@@ -266,7 +266,7 @@
       (tstamp 5EC5E747))
     (comp (ref R706)
       (value 4.7)
-      (footprint my_library:dpak_back_isolated)
+      (footprint Red:dpak_back_isolated)
       (datasheet ~)
       (fields
         (field (name digikey) PWR263S-20-4R70J))
@@ -327,9 +327,9 @@
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /Robotics/) (tstamps /5EC2FE4B/))
       (tstamp 5EC8B127))
-    (comp (ref J701)
+    (comp (ref e1)
       (value Conn_01x03)
-      (footprint my_library:WM4901-ND)
+      (footprint Red:WM4901-ND)
       (datasheet ~)
       (fields
         (field (name digikey) WM4901-ND))
@@ -338,7 +338,7 @@
       (tstamp 5ECA1558))
     (comp (ref J702)
       (value Conn_01x03)
-      (footprint my_library:WM4901-ND)
+      (footprint Red:WM4901-ND)
       (datasheet ~)
       (fields
         (field (name digikey) WM4901-ND))
@@ -499,7 +499,7 @@
       (tstamp 5EC2D91F))
     (comp (ref D1)
       (value LED_RGBC)
-      (footprint my_library:LED_RGB_3.5mmx2.8mm)
+      (footprint Red:LED_RGB_3.5mmx2.8mm)
       (datasheet ~)
       (fields
         (field (name digikey) 1497-1225-1-ND))
@@ -1314,7 +1314,7 @@
       (node (ref R704) (pin 2))
       (node (ref R701) (pin 2))
       (node (ref R702) (pin 2))
-      (node (ref J701) (pin 3))
+      (node (ref e1) (pin 3))
       (node (ref J501) (pin B12))
       (node (ref J501) (pin B1))
       (node (ref C402) (pin 1))
@@ -1428,7 +1428,7 @@
     (net (code 57) (name /Robotics/5V_PWM1)
       (node (ref Q701) (pin 2))
       (node (ref R703) (pin 1))
-      (node (ref J701) (pin 1)))
+      (node (ref e1) (pin 1)))
     (net (code 58) (name /Robotics/5V_PWM2)
       (node (ref R704) (pin 1))
       (node (ref J702) (pin 1))
@@ -1440,7 +1440,7 @@
       (node (ref U803) (pin 2))
       (node (ref J503) (pin 5))
       (node (ref J503) (pin 6))
-      (node (ref J701) (pin 2))
+      (node (ref e1) (pin 2))
       (node (ref J503) (pin 7))
       (node (ref C806) (pin 1)))
     (net (code 60) (name "Net-(Q705-Pad2)")
