@@ -1,4 +1,4 @@
-7950837994283
+11131926377776
 Red
 2_pin_screw_terminal
 
@@ -21,6 +21,13 @@ SMD_Push_Switch
 4
 4
 Red
+Test_Point_2.67x1.02mm
+
+
+0
+1
+1
+Red
 WM4901-ND
 
 
@@ -34,3 +41,10 @@ DPAK TO-252 DPAK-3 TO-252-3 SOT-428
 0
 7
 3
+Red
+j-link_6_pin_needle
+
+
+0
+13
+6
