@@ -1,4 +1,4 @@
-11131926377776
+12722379709171
 Red
 2_pin_screw_terminal
 
@@ -27,6 +27,13 @@ Test_Point_2.67x1.02mm
 0
 1
 1
+Red
+USB_C_Receptacle_USB4110
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+20
+17
 Red
 WM4901-ND
 
