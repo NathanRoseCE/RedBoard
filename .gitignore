@@ -1,12 +1,23 @@
+#Do not push backup save file but do push the main project file
+*-save.pro
 
-#KiCad backup fikes
-*.sch-bak
-*.kicad_pcb-bak
+#Do not save copies of conflicting/missing schematic symbols they should all be in a either cache or in Board library and refferenced occordingly
+*-rescue.lib
 
-#net files because those are easy to start
-.net
+#DO not save backup schematic files
+*-bak
 
-#manufacturing files
-*.gbr
-*.drl
-*.pos
+#Temporary file
+*.000
+
+#Don't push Backup Layout file, but do push the original
+*-save.kicad_pcb
+
+#Backup for .dcm (description and aliases) file
+*.bck
+
+#Dont save the net file
+*.net
+
+#Gerber Directory(generate your own dammit)
+Gerber/
