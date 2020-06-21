@@ -1,4 +1,4 @@
-update=5/26/2020 2:05:37 AM
+update=6/20/2020 3:00:26 PM
 version=1
 last_client=kicad
 [general]
@@ -64,8 +64,8 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.05
-SolderMaskMinWidth=0.09999999999999999
+SolderMaskClearance=0.025
+SolderMaskMinWidth=0.05
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
@@ -247,17 +247,6 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=3.3V
-Clearance=0
-TrackWidth=0.3
-ViaDiameter=1
-ViaDrill=0.5
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/2]
 Name=4Amp
 Clearance=0.25
 TrackWidth=1.5
@@ -268,7 +257,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/3]
+[pcbnew/Netclasses/2]
 Name=5V
 Clearance=0.2
 TrackWidth=0.5

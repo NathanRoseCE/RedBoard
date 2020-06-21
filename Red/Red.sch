@@ -41,28 +41,6 @@ F 3 "~" H 7750 5500 50  0001 C CNN
 	1    7750 5500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H103
-U 1 1 5ED48920
-P 7750 5800
-F 0 "H103" H 7850 5846 50  0001 L CNN
-F 1 "MountingHole" H 7850 5755 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 7750 5800 50  0001 C CNN
-F 3 "~" H 7750 5800 50  0001 C CNN
-	1    7750 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H104
-U 1 1 5ED48A5D
-P 7750 6100
-F 0 "H104" H 7850 6146 50  0001 L CNN
-F 1 "MountingHole" H 7850 6055 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 7750 6100 50  0001 C CNN
-F 3 "~" H 7750 6100 50  0001 C CNN
-	1    7750 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6500 4200 6250 4200
 Wire Wire Line
